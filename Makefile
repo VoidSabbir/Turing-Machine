@@ -4,7 +4,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall
 
 SRC_DIR = src
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/TuringMachine.cpp $(SRC_DIR)/Loader.cpp
+SRC = $(SRC_DIR)/TuringSimulator.cpp $(SRC_DIR)/TuringMachine.cpp $(SRC_DIR)/MachineLoader.cpp
 OBJ = $(SRC:.cpp=.o)
 TARGET = TuringSimulator
 

@@ -17,10 +17,10 @@ int main()
     {
         Sleep(1000);
         cout << "Select a Turing Machine to run:\n";
-        cout << "1. Unary Addition\n";
-        cout << "2. Unary Subtraction\n";
-        cout << "3. Unary Multiplication\n";
-        cout << "4. Unary Division\n";
+        cout << "1. Addition\n";
+        cout << "2. Subtraction\n";
+        cout << "3. Multiplication\n";
+        cout << "4. Division\n";
         cout << "5. Palindrome\n";
         cout << "6. Exit\n";
         cout << "Enter your choice (1-6): ";
@@ -32,21 +32,21 @@ int main()
         switch (choice)
         {
         case 1:
-            cout << "\nYou selected Unary Addition.\nEnter two unary numbers (1s) separated by a plus sign (e.g., 111+11):\n";
+            cout << "\nYou selected Addition.\nEnter two numbers (1s) separated by a plus sign (e.g., 111+11):\n";
             filepath = "machines/add.tm";
             break;
 
         case 2:
-            cout << "\nYou selected Unary Subtraction.\nEnter two unary numbers separated by a minus sign (e.g., 1111-11):\n";
+            cout << "\nYou selected Subtraction.\nEnter two numbers separated by a minus sign (e.g., 1111-11):\n";
             filepath = "machines/subtract.tm";
             break;
         case 3:
-            cout << "\nYou selected Unary Multiplication.\nEnter two unary numbers separated by a '0' (e.g., 1110110):\n";
+            cout << "\nYou selected Multiplication.\nEnter two numbers separated by a '0' (e.g., 1110110):\n";
             filepath = "machines/multiply.tm";
             break;
 
         case 4:
-            cout << "\nYou selected Unary Division.\nEnter two unary numbers separated by a '0' (e.g., 1110110):\n";
+            cout << "\nYou selected Division.\nEnter two numbers separated by a '0' (e.g., 1110110):\n";
             filepath = "machines/divide.tm";
             break;
 
